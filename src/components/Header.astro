@@ -14,7 +14,7 @@ const { activeNav } = Astro.props;
   <a id="skip-to-content" href="#main-content">Skip to content</a>
   <div class="nav-container">
     <div class="top-nav-wrap">
-      <a href="/mattpsn/" class="logo whitespace-nowrap">
+      <a href="/mattprsn/" class="logo whitespace-nowrap">
         {
           LOGO_IMAGE.enable ? (
             <img
@@ -56,17 +56,17 @@ const { activeNav } = Astro.props;
         </button>
         <ul id="menu-items" class="display-none sm:flex">
           <li>
-            <a href="/mattpsn/posts/" class={activeNav === "posts" ? "active" : ""}>
+            <a href="/mattprsn/posts/" class={activeNav === "posts" ? "active" : ""}>
               Posts
             </a>
           </li>
           <li>
-            <a href="/mattpsn/tags/" class={activeNav === "tags" ? "active" : ""}>
+            <a href="/mattprsn/tags/" class={activeNav === "tags" ? "active" : ""}>
               Tags
             </a>
           </li>
           <li>
-            <a href="/mattpsn/about/" class={activeNav === "about" ? "active" : ""}>
+            <a href="/mattprsn/about/" class={activeNav === "about" ? "active" : ""}>
               About
             </a>
           </li>
@@ -77,7 +77,7 @@ const { activeNav } = Astro.props;
           </li>
           <li>
             <LinkButton
-              href="/mattpsn/search/"
+              href="/mattprsn/search/"
               className={`focus-outline p-3 sm:p-1 ${
                 activeNav === "search" ? "active" : ""
               } flex`}
